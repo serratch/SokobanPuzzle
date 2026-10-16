@@ -1,9 +1,9 @@
 
+from boards import BOARDS
+from sokoban_puzzle import SokobanPuzzle
 
-def print_hi(name):
+puzzle = SokobanPuzzle(BOARDS[1])
 
-    print(f'Hi, {name}')
-
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
+print("Rows:", puzzle.rows)
+print("Columns:", puzzle.cols)
+print("Robot:", puzzle.robot_position)
