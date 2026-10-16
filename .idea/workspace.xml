@@ -1,14 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3d08270-d15c-4541-b55a-4cb4272832cc" name="Changes" comment="" />
+    <list default="true" id="e3d08270-d15c-4541-b55a-4cb4272832cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SokobanPuzzle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SokobanPuzzle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "serratch"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/serratch/SokobanPuzzle.git",
+    "accountId": "ac9e08ec-db88-4d27-aaf3-a36658a876c1"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.8526348917679567" />
+      <entry key="MS500" value="1.9686181919850272" />
+      <entry key="S2" value="2.002981280490605" />
+      <entry key="S5" value="2.2631476354940303" />
+      <entry key="S10" value="3.0631559896754315" />
+      <entry key="S30" value="6.364941946008821" />
+      <entry key="S60" value="9.488281882812338" />
+      <entry key="M2" value="15.377353409615626" />
+      <entry key="M5" value="30.87589579440287" />
+      <entry key="M10" value="44.32582920137963" />
+      <entry key="M15" value="50.8928907060285" />
+      <entry key="M30" value="59.135910165314485" />
+      <entry key="H1" value="66.78153699345032" />
+      <entry key="H2" value="79.8288987773515" />
+      <entry key="H4" value="96.12088356311867" />
+      <entry key="D1" value="121.7636196513113" />
+      <entry key="W1" value="127.91209134561278" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.568518776219435E-133" />
+      <entry key="S5" value="9.201806530874622E-54" />
+      <entry key="S10" value="3.033447960798839E-27" />
+      <entry key="S30" value="1.4475898066604549E-9" />
+      <entry key="S60" value="3.804720497829574E-5" />
+      <entry key="M2" value="0.006168241643961086" />
+      <entry key="M5" value="0.13063650460884074" />
+      <entry key="M10" value="0.36143672282827144" />
+      <entry key="M15" value="0.5074051262661184" />
+      <entry key="M30" value="0.7123237510192382" />
+      <entry key="H1" value="0.8439927434636142" />
+      <entry key="H2" value="0.9186907768469285" />
+      <entry key="H4" value="0.9584835819391628" />
+      <entry key="D1" value="0.9929577725911448" />
+      <entry key="W1" value="0.9989909179052913" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.2216175535656295" />
+      <entry key="MS500" value="1.7721809078146473" />
+      <entry key="S2" value="1.9464407292995995" />
+      <entry key="S5" value="2.2141903875876436" />
+      <entry key="S10" value="3.0004892018659173" />
+      <entry key="S30" value="6.291643087750116" />
+      <entry key="S60" value="9.425961739139723" />
+      <entry key="M2" value="15.324657153003221" />
+      <entry key="M5" value="30.95021826600552" />
+      <entry key="M10" value="44.64423524627274" />
+      <entry key="M15" value="51.36669091355009" />
+      <entry key="M30" value="59.82836306376495" />
+      <entry key="H1" value="67.61454992822617" />
+      <entry key="H2" value="80.74159085181915" />
+      <entry key="H4" value="97.07611407023468" />
+      <entry key="D1" value="122.75597404316866" />
+      <entry key="W1" value="128.91099402854994" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0,
@@ -23,13 +108,26 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/saratchokhani/PycharmProjects/SokobanPuzzle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,11 +142,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792140636456</updated>
-      <workItem from="1792140637517" duration="1000" />
+      <workItem from="1792140637517" duration="4330000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
