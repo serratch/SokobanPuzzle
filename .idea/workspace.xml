@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3d08270-d15c-4541-b55a-4cb4272832cc" name="Changes" comment="init function in sokobanpuzzle and board templates">
+    <list default="true" id="e3d08270-d15c-4541-b55a-4cb4272832cc" name="Changes" comment="interface added, node et searcg bfs done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boards.py" beforeDir="false" afterPath="$PROJECT_DIR$/boards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deadlocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/deadlocks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sokoban_puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban_puzzle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +39,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.8520824064421486" />
-      <entry key="MS500" value="3.632985092827607" />
-      <entry key="S2" value="6.718805560837459" />
-      <entry key="S5" value="9.390928753013892" />
-      <entry key="S10" value="10.921837380371521" />
-      <entry key="S30" value="12.258161885703037" />
-      <entry key="S60" value="13.350988843994553" />
-      <entry key="M2" value="17.007965055461124" />
-      <entry key="M5" value="26.749226683496772" />
-      <entry key="M10" value="46.643507418070726" />
-      <entry key="M15" value="67.66043657409892" />
-      <entry key="M30" value="111.84592044865748" />
-      <entry key="H1" value="152.70076582776946" />
-      <entry key="H2" value="187.86272385794476" />
-      <entry key="H4" value="217.78674173662762" />
-      <entry key="D1" value="258.14649578759196" />
-      <entry key="W1" value="267.37663587034734" />
+      <entry key="MS100" value="1.0382986886857855" />
+      <entry key="MS500" value="1.8566013812844084" />
+      <entry key="S2" value="4.195579127080469" />
+      <entry key="S5" value="7.326646238979414" />
+      <entry key="S10" value="9.684625079733824" />
+      <entry key="S30" value="12.210469457390323" />
+      <entry key="S60" value="13.051853204330158" />
+      <entry key="M2" value="13.606674313306659" />
+      <entry key="M5" value="14.411470704467018" />
+      <entry key="M10" value="15.600487965632892" />
+      <entry key="M15" value="18.563866213618684" />
+      <entry key="M30" value="39.80019876794292" />
+      <entry key="H1" value="90.15904375032426" />
+      <entry key="H2" value="154.41227122573207" />
+      <entry key="H4" value="213.3371403102829" />
+      <entry key="D1" value="293.3805149666939" />
+      <entry key="W1" value="311.76228238631353" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="8.938107889823968E-184" />
-      <entry key="S10" value="2.9896668526482964E-92" />
-      <entry key="S30" value="3.1036609031165755E-31" />
-      <entry key="S60" value="5.571050980844244E-16" />
-      <entry key="M2" value="2.360307391176884E-8" />
-      <entry key="M5" value="8.895849492595808E-4" />
-      <entry key="M10" value="0.029825910702937188" />
-      <entry key="M15" value="0.09617506212497084" />
-      <entry key="M30" value="0.3101210443116862" />
-      <entry key="H1" value="0.5568851266748703" />
-      <entry key="H2" value="0.7462473629265765" />
-      <entry key="H4" value="0.8638561008215283" />
-      <entry key="D1" value="0.9759035566714577" />
-      <entry key="W1" value="0.996521562068602" />
+      <entry key="S5" value="3.2461998401157487E-251" />
+      <entry key="S10" value="5.6975431899334886E-126" />
+      <entry key="S30" value="1.786059305264728E-42" />
+      <entry key="S60" value="1.3364352978220551E-21" />
+      <entry key="M2" value="3.6557287906455456E-11" />
+      <entry key="M5" value="6.687598025079048E-5" />
+      <entry key="M10" value="0.008288397858143037" />
+      <entry key="M15" value="0.04290286635503086" />
+      <entry key="M30" value="0.24957852499459593" />
+      <entry key="H1" value="0.6681972073765671" />
+      <entry key="H2" value="1.138308561624538" />
+      <entry key="H4" value="1.5028706800077545" />
+      <entry key="D1" value="1.9059173053004463" />
+      <entry key="W1" value="1.9862534243584749" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.720524484861221" />
-      <entry key="MS500" value="3.5680209277229245" />
-      <entry key="S2" value="6.6771076599465955" />
-      <entry key="S5" value="9.361465910334317" />
-      <entry key="S10" value="10.903162837919837" />
-      <entry key="S30" value="12.250733999128162" />
-      <entry key="S60" value="13.34649113912393" />
-      <entry key="M2" value="17.004320688773884" />
-      <entry key="M5" value="26.747037546151383" />
-      <entry key="M10" value="46.667719172824114" />
-      <entry key="M15" value="67.74847761435541" />
-      <entry key="M30" value="112.14615065201775" />
-      <entry key="H1" value="153.2496423419484" />
-      <entry key="H2" value="188.60367032718727" />
-      <entry key="H4" value="218.64743870217063" />
-      <entry key="D1" value="259.12176648182543" />
-      <entry key="W1" value="268.3730636730034" />
+      <entry key="MS100" value="1.0078305766437972" />
+      <entry key="MS500" value="1.6670273327109562" />
+      <entry key="S2" value="4.01438795420549" />
+      <entry key="S5" value="7.1882115233770945" />
+      <entry key="S10" value="9.586197904669776" />
+      <entry key="S30" value="12.16687938644311" />
+      <entry key="S60" value="13.028239303905599" />
+      <entry key="M2" value="13.593834143013911" />
+      <entry key="M5" value="14.405088014229367" />
+      <entry key="M10" value="15.604657936320752" />
+      <entry key="M15" value="18.60316213088022" />
+      <entry key="M30" value="40.0454732613888" />
+      <entry key="H1" value="90.82202830511132" />
+      <entry key="H2" value="155.54594515681168" />
+      <entry key="H4" value="214.83676393698994" />
+      <entry key="D1" value="295.28568466024274" />
+      <entry key="W1" value="313.74842233959174" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -109,6 +108,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.interface.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.search.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -145,7 +147,8 @@
       <option name="presentableId" value="Default" />
       <updated>1792140636456</updated>
       <workItem from="1792140637517" duration="6096000" />
-      <workItem from="1792230246876" duration="609000" />
+      <workItem from="1792230246876" duration="5773000" />
+      <workItem from="1792244738643" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="init function in sokobanpuzzle and board templates">
       <option name="closed" value="true" />
@@ -155,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792158015621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sokoban puzzle done">
+      <option name="closed" value="true" />
+      <created>1792230905074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792230905074</updated>
+    </task>
+    <task id="LOCAL-00003" summary="interface added, node et searcg bfs done">
+      <option name="closed" value="true" />
+      <created>1792235687047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792235687047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,17 +182,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init function in sokobanpuzzle and board templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="init function in sokobanpuzzle and board templates" />
+    <MESSAGE value="sokoban puzzle done" />
+    <MESSAGE value="interface added, node et searcg bfs done" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface added, node et searcg bfs done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>4</line>
+          <line>1</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SokobanPuzzle$search.coverage" NAME="search Coverage Results" MODIFIED="1792235970064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SokobanPuzzle$interface.coverage" NAME="interface Coverage Results" MODIFIED="1792245751257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SokobanPuzzle$main.coverage" NAME="main Coverage Results" MODIFIED="1792244841764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 from queue import Queue
 from node import Node
-
+from deadlocks import est_deadlock
 
 def BFS(initial_state):
     init_node = Node(initial_state, None, None)
@@ -23,6 +23,9 @@ def BFS(initial_state):
 
             if child.state.is_goal():
                 return child, steps
+
+            if est_deadlock(child.state):
+                continue
 
             if (child.state.board not in [n.state.board for n in Closed]
                     and child.state.board not in [n.state.board for n in Open.queue]):
