@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3d08270-d15c-4541-b55a-4cb4272832cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SokobanPuzzle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SokobanPuzzle.iml" afterDir="false" />
+    <list default="true" id="e3d08270-d15c-4541-b55a-4cb4272832cc" name="Changes" comment="init function in sokobanpuzzle and board templates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boards.py" beforeDir="false" afterPath="$PROJECT_DIR$/boards.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban_puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban_puzzle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,105 +26,105 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "serratch"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;serratch&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/serratch/SokobanPuzzle.git",
-    "accountId": "ac9e08ec-db88-4d27-aaf3-a36658a876c1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/serratch/SokobanPuzzle.git&quot;,
+    &quot;accountId&quot;: &quot;ac9e08ec-db88-4d27-aaf3-a36658a876c1&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.8526348917679567" />
-      <entry key="MS500" value="1.9686181919850272" />
-      <entry key="S2" value="2.002981280490605" />
-      <entry key="S5" value="2.2631476354940303" />
-      <entry key="S10" value="3.0631559896754315" />
-      <entry key="S30" value="6.364941946008821" />
-      <entry key="S60" value="9.488281882812338" />
-      <entry key="M2" value="15.377353409615626" />
-      <entry key="M5" value="30.87589579440287" />
-      <entry key="M10" value="44.32582920137963" />
-      <entry key="M15" value="50.8928907060285" />
-      <entry key="M30" value="59.135910165314485" />
-      <entry key="H1" value="66.78153699345032" />
-      <entry key="H2" value="79.8288987773515" />
-      <entry key="H4" value="96.12088356311867" />
-      <entry key="D1" value="121.7636196513113" />
-      <entry key="W1" value="127.91209134561278" />
+      <entry key="MS100" value="1.8520824064421486" />
+      <entry key="MS500" value="3.632985092827607" />
+      <entry key="S2" value="6.718805560837459" />
+      <entry key="S5" value="9.390928753013892" />
+      <entry key="S10" value="10.921837380371521" />
+      <entry key="S30" value="12.258161885703037" />
+      <entry key="S60" value="13.350988843994553" />
+      <entry key="M2" value="17.007965055461124" />
+      <entry key="M5" value="26.749226683496772" />
+      <entry key="M10" value="46.643507418070726" />
+      <entry key="M15" value="67.66043657409892" />
+      <entry key="M30" value="111.84592044865748" />
+      <entry key="H1" value="152.70076582776946" />
+      <entry key="H2" value="187.86272385794476" />
+      <entry key="H4" value="217.78674173662762" />
+      <entry key="D1" value="258.14649578759196" />
+      <entry key="W1" value="267.37663587034734" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.568518776219435E-133" />
-      <entry key="S5" value="9.201806530874622E-54" />
-      <entry key="S10" value="3.033447960798839E-27" />
-      <entry key="S30" value="1.4475898066604549E-9" />
-      <entry key="S60" value="3.804720497829574E-5" />
-      <entry key="M2" value="0.006168241643961086" />
-      <entry key="M5" value="0.13063650460884074" />
-      <entry key="M10" value="0.36143672282827144" />
-      <entry key="M15" value="0.5074051262661184" />
-      <entry key="M30" value="0.7123237510192382" />
-      <entry key="H1" value="0.8439927434636142" />
-      <entry key="H2" value="0.9186907768469285" />
-      <entry key="H4" value="0.9584835819391628" />
-      <entry key="D1" value="0.9929577725911448" />
-      <entry key="W1" value="0.9989909179052913" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="8.938107889823968E-184" />
+      <entry key="S10" value="2.9896668526482964E-92" />
+      <entry key="S30" value="3.1036609031165755E-31" />
+      <entry key="S60" value="5.571050980844244E-16" />
+      <entry key="M2" value="2.360307391176884E-8" />
+      <entry key="M5" value="8.895849492595808E-4" />
+      <entry key="M10" value="0.029825910702937188" />
+      <entry key="M15" value="0.09617506212497084" />
+      <entry key="M30" value="0.3101210443116862" />
+      <entry key="H1" value="0.5568851266748703" />
+      <entry key="H2" value="0.7462473629265765" />
+      <entry key="H4" value="0.8638561008215283" />
+      <entry key="D1" value="0.9759035566714577" />
+      <entry key="W1" value="0.996521562068602" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2216175535656295" />
-      <entry key="MS500" value="1.7721809078146473" />
-      <entry key="S2" value="1.9464407292995995" />
-      <entry key="S5" value="2.2141903875876436" />
-      <entry key="S10" value="3.0004892018659173" />
-      <entry key="S30" value="6.291643087750116" />
-      <entry key="S60" value="9.425961739139723" />
-      <entry key="M2" value="15.324657153003221" />
-      <entry key="M5" value="30.95021826600552" />
-      <entry key="M10" value="44.64423524627274" />
-      <entry key="M15" value="51.36669091355009" />
-      <entry key="M30" value="59.82836306376495" />
-      <entry key="H1" value="67.61454992822617" />
-      <entry key="H2" value="80.74159085181915" />
-      <entry key="H4" value="97.07611407023468" />
-      <entry key="D1" value="122.75597404316866" />
-      <entry key="W1" value="128.91099402854994" />
+      <entry key="MS100" value="1.720524484861221" />
+      <entry key="MS500" value="3.5680209277229245" />
+      <entry key="S2" value="6.6771076599465955" />
+      <entry key="S5" value="9.361465910334317" />
+      <entry key="S10" value="10.903162837919837" />
+      <entry key="S30" value="12.250733999128162" />
+      <entry key="S60" value="13.34649113912393" />
+      <entry key="M2" value="17.004320688773884" />
+      <entry key="M5" value="26.747037546151383" />
+      <entry key="M10" value="46.667719172824114" />
+      <entry key="M15" value="67.74847761435541" />
+      <entry key="M30" value="112.14615065201775" />
+      <entry key="H1" value="153.2496423419484" />
+      <entry key="H2" value="188.60367032718727" />
+      <entry key="H4" value="218.64743870217063" />
+      <entry key="D1" value="259.12176648182543" />
+      <entry key="W1" value="268.3730636730034" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Klmg8GZok88mOwURehkBeRSEz8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/saratchokhani/PycharmProjects/SokobanPuzzle",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/saratchokhani/PycharmProjects/SokobanPuzzle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -142,12 +144,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1792140636456</updated>
-      <workItem from="1792140637517" duration="4330000" />
+      <workItem from="1792140637517" duration="6096000" />
+      <workItem from="1792230246876" duration="609000" />
     </task>
+    <task id="LOCAL-00001" summary="init function in sokobanpuzzle and board templates">
+      <option name="closed" value="true" />
+      <created>1792158015620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1792158015621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init function in sokobanpuzzle and board templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="init function in sokobanpuzzle and board templates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
