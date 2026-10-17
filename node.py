@@ -24,5 +24,6 @@ class Node:
                 actions.append(node.action)
         return actions
 
-    def setf(self, h):
-        pass
+    def set_f(self, h):
+        self.f = h + self.g
+        return self.f
